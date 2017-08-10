@@ -26,7 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="pTU-Tr-By7"/>
                                 </connections>
@@ -156,8 +156,8 @@
                                     <action selector="calcBill:" destination="Hw2-8f-0Vk" eventType="valueChanged" id="NAL-7e-i3Z"/>
                                 </connections>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Point and Move around Desk or Table" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWI-UW-JT1">
-                                <rect key="frame" x="0.0" y="200" width="375" height="79"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Move around Desk or Table until Marker Purple" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWI-UW-JT1">
+                                <rect key="frame" x="0.0" y="162" width="375" height="149"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -165,15 +165,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Gsn-oF-Lnp" firstAttribute="top" secondItem="fWI-UW-JT1" secondAttribute="bottom" constant="356" id="3O2-rT-2Xw"/>
                             <constraint firstItem="bsd-oe-wda" firstAttribute="leading" secondItem="wYg-GE-Duj" secondAttribute="leading" id="6WI-3r-unZ"/>
                             <constraint firstItem="8Ua-vd-cQL" firstAttribute="trailing" secondItem="wYg-GE-Duj" secondAttribute="trailingMargin" id="7gx-R7-AGW"/>
                             <constraint firstItem="Gsn-oF-Lnp" firstAttribute="top" secondItem="bsd-oe-wda" secondAttribute="bottom" id="Ctb-U2-TL9"/>
-                            <constraint firstItem="fWI-UW-JT1" firstAttribute="top" secondItem="R3g-ez-Ete" secondAttribute="bottom" constant="180" id="KJi-3G-iQU"/>
+                            <constraint firstItem="fWI-UW-JT1" firstAttribute="leading" secondItem="wYg-GE-Duj" secondAttribute="leading" id="LvL-wN-ZIU"/>
                             <constraint firstItem="bsd-oe-wda" firstAttribute="top" secondItem="R3g-ez-Ete" secondAttribute="bottom" id="ODI-Ah-9jz"/>
                             <constraint firstItem="Gsn-oF-Lnp" firstAttribute="top" secondItem="8Ua-vd-cQL" secondAttribute="bottom" constant="86" id="UDL-kj-2Bb"/>
-                            <constraint firstAttribute="trailing" secondItem="fWI-UW-JT1" secondAttribute="trailing" id="b4L-3B-0Rq"/>
+                            <constraint firstItem="fWI-UW-JT1" firstAttribute="top" secondItem="R3g-ez-Ete" secondAttribute="bottom" constant="142" id="pWS-eV-QhA"/>
                             <constraint firstItem="8Ua-vd-cQL" firstAttribute="leading" secondItem="wYg-GE-Duj" secondAttribute="leadingMargin" id="qiC-cG-Ewu"/>
-                            <constraint firstItem="fWI-UW-JT1" firstAttribute="leading" secondItem="wYg-GE-Duj" secondAttribute="leading" id="wUh-3e-Nhh"/>
+                            <constraint firstAttribute="trailing" secondItem="fWI-UW-JT1" secondAttribute="trailing" id="t53-pg-vAu"/>
                             <constraint firstAttribute="trailing" secondItem="bsd-oe-wda" secondAttribute="trailing" id="y7v-Tw-iSl"/>
                         </constraints>
                     </view>

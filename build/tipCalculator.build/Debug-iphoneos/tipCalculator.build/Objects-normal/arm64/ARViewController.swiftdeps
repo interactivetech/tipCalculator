@@ -76,7 +76,6 @@ depends-top-level:
 depends-member:
 - !private ["So15ARHitTestResultC", "worldTransform"]
 - !private ["So17ARSCNDebugOptionsV", "showFeaturePoints"]
-- !private ["So17ARSCNDebugOptionsV", "showWorldOrigin"]
 - !private ["So9ARSCNViewC", "antialiasingMode"]
 - !private ["So9ARSCNViewC", "automaticallyUpdatesLighting"]
 - !private ["So9ARSCNViewC", "bounds"]

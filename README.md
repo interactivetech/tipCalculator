@@ -26,7 +26,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/3o6vXSvzaBwL6m8M8M/giphy.gif' title='Calculate Tip' width='' alt='Video Walkthrough' />
+
+<img src='http://imgur.com/a/b1Nou' title='Calculate Tip' width='' alt='Edit Settings' />
+
+<img src='http://imgur.com/a/rAqZn' title='Calculate Tip' width='' alt='AR Experience' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
