@@ -30,7 +30,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://media.giphy.com/media/l1J3DgxxW7c9gxCxi/giphy.gif' title='Calculate Tip' width='' alt='Edit Settings' />
 
-<a href="http://imgur.com/c0nCB6O"><img src="http://i.imgur.com/c0nCB6Ob.gif" title="source: imgur.com" /></a>
+<blockquote class="imgur-embed-pub" lang="en" data-id="c0nCB6O"><a href="//imgur.com/c0nCB6O"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Project Analysis
