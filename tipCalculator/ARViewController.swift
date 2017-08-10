@@ -31,7 +31,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         midPoint = CGPoint(x: arSCNView.bounds.midX,y:arSCNView.bounds.midY)
         arSCNView.delegate = self
         let session = ARSession()
-        arSCNView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
+        arSCNView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
         
         arSCNView.session = session
         
@@ -67,14 +67,12 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         print("2) View about to appear")
         let sessionConfig = ARWorldTrackingSessionConfiguration()
         sessionConfig.planeDetection = .horizontal
-        //        sessionConfig.isLightEstimationEnabled = true
         arSCNView.session.run(sessionConfig)
         
     }
     
     override func viewDidAppear(_ animated: Bool) {
         print("3) View appeared!")
-        //here load the segment control
         
         
     }
@@ -91,7 +89,6 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
          guard let screenCenter = self.midPoint else {return}
-//        print(screenCenter)
         //run hitTest from center of iphone screen
          DispatchQueue.main.async {
             let results = self.arSCNView.hitTest(screenCenter, types: .featurePoint)
@@ -100,7 +97,6 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         
         //set point to transform
         if let transform = result?.worldTransform{
-//            print(SCNVector3(transform.columns.3.x,transform.columns.3.y,transform.columns.3.z))
             self.cursor.position = SCNVector3(transform.columns.3.x,transform.columns.3.y,transform.columns.3.z)
         }
         }
