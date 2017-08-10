@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.43 clang-900.0.22.8)"
+options: "95c985715740a4b3543573bdb0962b9f"
+build_time: [1502256109, 868089000]
+inputs:
+  "/Users/andrewmendez1/Documents/iOS/tipCalculator/tipCalculator/ViewController.swift": [1502251916, 0]
+  "/Users/andrewmendez1/Documents/iOS/tipCalculator/tipCalculator/AppDelegate.swift": [1501825386, 0]
+  "/Users/andrewmendez1/Documents/iOS/tipCalculator/tipCalculator/SettingsViewController.swift": [1502073062, 0]
+  "/Users/andrewmendez1/Documents/iOS/tipCalculator/tipCalculator/ARViewController.swift": [1502256108, 0]
