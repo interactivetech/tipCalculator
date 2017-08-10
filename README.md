@@ -30,7 +30,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://media.giphy.com/media/l1J3DgxxW7c9gxCxi/giphy.gif' title='Calculate Tip' width='' alt='Edit Settings' />
 
-<img src='http://i.imgur.com/c0nCB6Ob.gif' title='Calculate Tip' width='' alt='AR Experience' />
+<img src='http://i.imgur.com/YVUnHFd.gif' title='Calculate Tip' width='' alt='AR Experience' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
