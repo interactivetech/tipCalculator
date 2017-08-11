@@ -25,10 +25,12 @@ The following **additional** features are implemented:
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
-
+<p>Calculate Tip</p>
 <img src='https://media.giphy.com/media/3o6vXSvzaBwL6m8M8M/giphy.gif' title='Calculate Tip' width='' alt='Video Walkthrough' />
+<p>Edit Settings</p>
 <img src='https://media.giphy.com/media/l1J3DgxxW7c9gxCxi/giphy.gif' title='Change Default Tip' width='' alt='Edit Settings' />
-<img src='https://thumbs.gfycat.com/BonyFrequentAsiaticlesserfreshwaterclam-size_restricted.gif' title='ARKit Experience' width='' alt='AR Experience' />
+<p>View Final Bill in AR!</p>
+<img src='https://thumbs.gfycat.com/BonyFrequentAsiaticlesserfreshwaterclam-size_restricted.gif' title='ARKit Experience' width='' alt='' />
 
 GIF created with GIF Brewery
 
