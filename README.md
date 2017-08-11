@@ -27,11 +27,11 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 Calculate Tip
-<img src='https://media.giphy.com/media/3o6vXSvzaBwL6m8M8M/giphy.gif' title='Calculate Tip' width='' alt='Video Walkthrough' />
-Edit Default Settings
-<img src='https://media.giphy.com/media/l1J3DgxxW7c9gxCxi/giphy.gif' title='Change Default Tip' width='' alt='Edit Settings' />
+<img src='https://media.giphy.com/media/3o6vXSvzaBwL6m8M8M/giphy.gif' title='' width='' alt='Video Walkthrough' />
+<p>Edit Default Settings
+<img src='https://media.giphy.com/media/l1J3DgxxW7c9gxCxi/giphy.gif' title='' width='' alt='Edit Settings' />
 View Final Bill in AR! 
-<img src='https://thumbs.gfycat.com/BonyFrequentAsiaticlesserfreshwaterclam-size_restricted.gif' title='ARKit Experience' width='' alt='AR Experience' />
+<p><img src='https://thumbs.gfycat.com/BonyFrequentAsiaticlesserfreshwaterclam-size_restricted.gif' title='ARKit Experience' width='' alt='AR Experience' />
 
 GIF created with GIF Brewery
 
