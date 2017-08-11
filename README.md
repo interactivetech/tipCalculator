@@ -40,17 +40,19 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1**: "What are your reactions to the iOS app development platform so far? How would you describe outlets and actions to another developer? Bonus: any idea how they are being implemented under the hood? (It might give you some ideas if you right-click on the Storyboard and click Open As->Source Code")
 
-I have been fiddling with iOS app development for a while. As it is easy to get started, it takes time and skill to master, just like any other software development paradigm. What excites me about ios development is how much control you have over the design and the user experience as a developer, and makes me wear different hats and think about my work in an interdisciplinary way.
+**Answer:**
+
+From my experiene with iOS dev, it is easy to get started, but it takes time and skill to master, just like any other software development paradigm. What excites me about ios development is how much control you have over the design and the user experience as a developer, and makes me wear different hats and think about my work in an interdisciplinary way.
 
 In the view of web development IBActions are the eventlisteners for your app window. You set up connection you set up with UI element and listen to a specific event you want, like when the value has changed. IBOutlets is like a variable you create so you can use the data and information from UI elements in your code i.e. view controllers.
 
-To Do(Andrew): How are IBAction and IBOutlet implemented under the hood
-
-**Answer:** [Enter your answer here in a paragraph or two].
 
 Question 2: "Swift uses [Automatic Reference Counting](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html#//apple_ref/doc/uid/TP40014097-CH20-ID49) (ARC), which is not a garbage collector, to manage memory. Can you explain how you can get a strong reference cycle for closures? (There's a section explaining this concept in the link, how would you summarize as simply as possible?)"
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** A Strong reference cycle occurs when setting references to members. If not careful, setting a member of an instance can accidentally increase the reference count of an instance and prevent the ARC from correctly deinitalizing instances. A strong reference cycle can occur for closures due to closures being references. If you set a member of an instance to a closure, and the body of the closure refers to "self", that is another reference to an instance that prevents correct deallocation by ARC.
+
+
+
 
 
 ## License
